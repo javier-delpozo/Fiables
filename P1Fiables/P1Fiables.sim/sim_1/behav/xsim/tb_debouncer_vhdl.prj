@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../P1Fiables.srcs/sources_1/imports/RTL/debouncer.vhd" \
+"../../../../P1Fiables.srcs/sim_1/imports/Sim/tb_debouncer.vhd" \
+
+# Do not sort compile order
+nosort
